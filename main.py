@@ -7,7 +7,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
-    await message.answer("សួស្តី! ចុច "បង់ប្រាក់" ដើម្បីទទួល VIP Access.")
+    await message.answer('សួស្តី! ចុច "បង់ប្រាក់" ដើម្បី មើលរឿងពេញ.')
 
 @dp.message_handler(lambda msg: msg.text.lower() in ["បង់ប្រាក់", "pay"])
 async def send_qr_code(message: types.Message):
