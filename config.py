@@ -1,0 +1,4 @@
+# config.py
+
+BOT_TOKEN = '7608754198:AAFqQz5de9Od9tlO-1Dbnn27ulbrdxWz9us'
+ADMIN_ID = 1216195956
